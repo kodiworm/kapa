@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <link rel="shortcut icon" href="KAPA-logo/favicon.ico" type="image/png">
+    <title>Register to KAPA</title>
+    
+    <meta charset name="utf-8">    
+    <meta name="description" content="Farm Book">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kelvin Mwangi">
+
+    <link rel="stylesheet" href="css/sign-up.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    
+    <!--Body-->
+<body>
+    <div id="signup-box">
+    <!--logo-->
+    <div class="logo">
+        <a href="index.html"><img src="KAPA-logo/kapa-logo.svg" alt="logo" height="50px"/></a>
+        </div>
+    
+    <!--logging form-->
+    <div class="signup-form">
+        <h2>Register to KAPA</h2>
+        
+         <form id="register" action="php/register.php" method="POST">
+                    
+                    <label for="name">Full Name<span id="asteric">*</span></label><br>
+                    <input type="text" name="name" id="textbox" required/><br>
+                    
+                    <label for="username">Username<span id="asteric">*</span></label><br>
+                    <input type="text" name="username" id="textbox" required/>
+                    <br>
+                    
+                    <label for="email">Email<span id="asteric">*</span></label><br>
+                    <input type="email" name="email" id="textbox" required/>
+                    <br>
+                    
+                    <label for="password">Password<span id="asteric">*</span></label><br>
+                    <input type="password" name="password" id="textbox" required/>
+                    <br>
+                    
+                    <input type="submit" name="submit" value="submit" id="submit"/>
+        </form>
+        
+    </div>
+    </div>
+</body>
+</html>

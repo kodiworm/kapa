@@ -1,0 +1,44 @@
+
+<?php  
+    require 'register.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <link rel="shortcut icon" href="KAPA-logo/favicon.ico" type="image/png">
+    <title>Log in to your KAPA account</title>
+    
+    <meta charset name="utf-8">    
+    <meta name="description" content="Farm Book">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kelvin Mwangi">
+
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    
+    <!--Body-->
+<body>
+    <div class="login-box">
+    <!--logo-->
+    <div class="logo">
+        <a href="index.html"><img src="KAPA-logo/kapa-logo.svg" alt="logo" height="50px"/></a>
+        </div>
+    
+    <!--logging form-->
+    <div class="logform">
+        <h2>Login to your account</h2>
+        
+        <form method="post" action="logaccount.php" id="form">
+            <i class="fa fa-user"></i>
+            <input name="username" type="text" placeholder="Username" id="textbox" value="" required>
+            <br>
+            <i class="fa fa-lock"></i>
+            <input name="password" type="password" placeholder="Password" id="textbox" value="" required>
+            <input type="submit" value="Log in" id="submit">
+        </form>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+*, body
+{
+    font-family: 'roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;  
+    /*font-size: 24px;*/
+}
+
+.login-box
+{
+    width: 280px;
+    margin-top: 5em;
+    left: 50%; 
+    height: 15em;
+    padding: 3px 15em;
+}
+
+.logo
+{
+    transform: scale(2.5)
+}
+
+h2{
+    float: left;
+    font-size: 28px;
+    border-bottom: 4px solid #3c9e0a;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+
+.logform
+{
+    margin-top: 5em;
+    width: 100%;
+}
+
+.logform i
+{
+    font-size: 24px;
+    color: #3c9e0a;
+    width: 26px;
+    padding-top: 24px;
+}
+
+#textbox
+{
+    width: 80%;
+    overflow: hidden;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 6px 0;
+    margin: 3px 0;
+    border-bottom: 2px solid #3c9e0a;
+}
+
+#submit
+{
+    background: #3c9e0a;
+    margin-left: 10px;
+    margin-top: 12px;
+    padding: 5px 24px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#submit:hover{
+    transform: scale(1.2);
+    background: #fff;
+    color: #3c9e0a;
+    border: 1px solid #3c9e0a;
+    transition: 0.3s ease;
+}

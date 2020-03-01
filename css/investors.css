@@ -1,0 +1,274 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   /* font-size: 18px;*/
+}
+
+header>.header{
+    background: #3c9e0a;
+   /* position: fixed;*/
+    width: 100%;
+}
+
+/*TOPBAR*/
+.topbar{
+    color: #fff;
+   /* padding: 0 auto;*/
+}
+.topbar p{
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.topbar a{
+    color: #fff;
+    border-right: 2px solid #fff;
+    padding-right: 12px;
+}
+.topbar nav{
+    float: right;
+    padding: 0 auto;
+    margin-right: 18px;
+}
+.topbar li{
+    float: left;
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/*MENU*/
+.menu{
+    background: #f2f2f2;
+    width: 100%;
+    display: inline-block;
+}
+.menu a{
+    color:  #3c9e0a;
+    font-size: 20px;
+}
+.menu nav{
+    float: right;
+    margin-right: 5em;
+}
+.menu nav ul li{
+    float: left;
+    margin-left: 5em;
+    padding-top: 1em;
+    display: inline-block;
+}
+.active, nav ul li:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    text-decoration: underline;
+}
+.menu li:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.2);    
+}
+.sub-menu-prod{
+    display: none;
+    left: 0;
+}
+nav ul li:hover .sub-menu-prod{
+    display: block;
+    position: absolute;
+    background: #f2f2f2;
+   float: left;
+}
+
+.logo{
+    float: left;
+    display: inline-block;
+    padding: 1em;
+    margin-left: 50px;
+}
+
+/*Article*/
+article
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px 8px;
+    margin-top: 2px;
+}
+
+#kalro{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.kalro-1 img{
+    width: 240px;
+    height: 240px;
+}
+
+#fao{
+    margin-top: 2em;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fao-1 img{
+    background: #150792;
+    width: 320px;
+    height: 80px;
+    padding: 5em;
+    border-radius: 15px;
+}
+.fao-2{
+    margin-left: 2em;
+}
+
+
+/*FOOTER*/
+.footer{
+    color: #f2f2f2;
+    background: #3c9e0a;
+    padding-bottom: 2px;
+    margin: 0 auto;
+    bottom: 0;
+    clear: both;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.footer h1 a{
+    font-size: 38px;
+}
+.footer h3{
+    color: #f2f2f2;
+}
+.footer a{
+     color: #f2f2f2;
+}
+
+/*Talk to Us*/
+#talk{
+    float: right;
+    margin-left: 2em;
+    width: 250px;
+}
+#talk h3{
+    margin-left: 30px;
+}
+#talk i{
+    margin-right: 10px;
+    margin-bottom: 3px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+}
+#talk i:hover{
+    background: #fff;
+    color: #3c9e0a;
+}
+
+/*About Us*/
+#aboutUs{
+    float: right;
+    margin-right: 20px;
+    margin-left: 2em;
+    width: 250px;
+}
+#aboutUs h3{
+    margin-left: 30px;
+}
+#aboutUs ul li{
+    padding: 4px 0;
+}
+#aboutUs ul li a:hover{
+    text-decoration: underline;
+    transition: all 0.3s ease;
+    font-weight: 300;
+}
+
+/*Useful Links*/
+#links{
+    float: right;
+    margin-right: 20px;
+    margin-left: 2em;
+    width: 250px;
+}
+#links h3{
+    margin-left: 30px
+}
+#links ul li{
+    padding: 4px 0;
+}
+#links ul li a:hover{
+    text-decoration: underline;
+    transition: all 0.3s ease;
+    font-weight: 300;
+}
+
+
+/*Comment*/
+#comment{
+    float: right;
+    width: 250px;
+}
+.required{
+    color: red;
+}
+.submit{
+    background: #ffffff;
+    display: block;
+    border-radius: 125px;
+    border-color: #3c9e0a;
+    border-style: none;
+    padding: 0.5em 1em;
+    font-size: 18px;
+    color: #3c9e0a;
+     box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+}
+.submit:hover{
+    background:green;
+    color: #fff;
+    box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.6), 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+.submit:focus{
+     box-shadow: inset 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer hr{
+    clear: both;
+    
+}
+
+/*copright*/
+.copyright{
+    text-align: center;
+     clear: both;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
